@@ -1,1 +1,6 @@
-
+transformers
+sentence-transformers
+PyPDF2
+pdfplumber
+python-docx
+faiss-cpu
