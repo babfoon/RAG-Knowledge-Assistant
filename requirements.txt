@@ -4,3 +4,4 @@ PyPDF2
 pdfplumber
 python-docx
 faiss-cpu
+streamlit
