@@ -11,7 +11,7 @@ def query_faiss(index, query_embedding, top_k=5):
   return distances, indices
 
 # Generate a response from the model
-def generate_respnse(query, context):
+def generate_response(query, context):
   input_text = f'Context: \n{context}\n\nQuestion: {query}\n'
   response = llm(input_text, max_length = 150, num_return_sequences = 1)
   return response[0] ['generated_text']
