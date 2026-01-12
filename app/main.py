@@ -4,7 +4,7 @@ from app.vectorstore import save_index, load_index
 from app.query import query_faiss, generate_response
 import numpy as np
 
-DOCUMENT_PATH = 'data/sample.pdf'
+DOCUMENT_PATH = 'data/A Course of Pure Mathematics (1921).pdf'
 INDEX_PATH = 'embeddings/index.faiss'
 
 def build_index():
