@@ -31,7 +31,7 @@ def query_index(query):
   response = generate_response(query, context)
   return response
 
-if __name___ == '__main__':
+if __name__ == '__main__':
   if not os.path.exists(INDEX_PATH):
     build_index()
 
