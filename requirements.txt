@@ -5,3 +5,6 @@ pdfplumber
 python-docx
 faiss-cpu
 streamlit
+flask
+flask-cors
+python-dotenv
