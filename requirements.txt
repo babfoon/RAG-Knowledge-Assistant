@@ -8,4 +8,4 @@ streamlit
 flask
 flask-cors
 python-dotenv
-ragas==0.2.2
+
